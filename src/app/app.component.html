@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+  <span class="navbar-brand logo" (click)="go('/')">Agustus</span>
+  <button class="navbar-toggler" type="button" aria-controls="appNavigation" [attr.aria-expanded]="!isCollapsed" aria-label="Toggle navigation" (click)="toggleMenu()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="appNavigation" [ngbCollapse]="isCollapsed">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  (click)="go('/register')">Register</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div class="container">
+    <div class="pull-right">
+      <a class="logo" (click)="go('/')">Agustus</a>
+      <p>
+        &copy; 2017
+      </p>
+    </div>
+  </div>
+</footer>

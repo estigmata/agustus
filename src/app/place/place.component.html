@@ -1,0 +1,25 @@
+<section class="container place">
+  <span class="go-back" (click)="go('/list')"><i class="fa fa-arrow-circle-left fa-lg"></i> Back to the list</span>
+  <h2>Factory Grill</h2>
+  <div class="images">
+    <img class="img-responsive img-thumbnail" src="./assets/images/factory.jpg" />
+  </div>
+  <h4>People who recomended this place</h4>
+  <div class="people">
+    <div class="row" *ngFor="let people of allPeople" (click)="go('/comments')">
+      <div class="col-3">
+        <span class="people-avatar">
+          <img class="img-responsive" src="./assets/images/people/{{people.avatar}}.jpg" />
+        </span>
+      </div>
+      <div class="col-7">
+        <h6>{{people.name}}</h6>
+        <span class="sub">Proin imperdiet ex in nisl scelerisque</span>
+      </div>
+      <div class="col-1">
+          <span class="badge badge-pill">{{people.numberCommentaries}}</span>
+      </div>
+    </div>
+  </div>
+  <span class="go-back" (click)="go('/list')"><i class="fa fa-arrow-circle-left fa-lg"></i> Back to the list</span>
+</section>

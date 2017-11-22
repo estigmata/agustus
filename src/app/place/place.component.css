@@ -1,0 +1,46 @@
+.place .go-back {
+  color: #002f6c;
+  display: block;
+  margin: 10px 0;
+}
+
+.people-avatar {
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+
+.people-avatar img {
+  border: 1px solid #eee;
+  border-radius: 50%;
+  height: 48px;
+  padding: 2px;
+  width: 48px;
+}
+
+.people {
+  margin-bottom: 20px;
+}
+
+.people > .row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.people h6 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.people .sub {
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.people .badge {
+  background-color: #c43e00;
+  color: #fff;
+  font-size: 12px;
+}

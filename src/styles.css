@@ -1,0 +1,53 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Philosopher:400,700";
+@import "https://fonts.googleapis.com/css?family=Barlow+Condensed:200,300,400,600";
+
+body {
+  font-family: 'Barlow Condensed';
+  font-weight: 400;
+}
+
+.navbar-brand.logo {
+  color: #ff6f00 !important;
+  font-family: 'Philosopher';
+  font-weight: 700;
+}
+
+.bg-custom {
+  background-color: #263238;
+}
+
+.container.signin {
+  background-color: #e1e2e1;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.signin p {
+  color: #333;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+footer {
+  background-color: #f5f6f5;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+footer .container {
+  overflow: auto;
+}
+
+footer .logo {
+  color: black;
+  font-family: 'Philosopher';
+  font-weight: 700;
+}
+
+footer p {
+  color: #999;
+  margin: 0;
+  text-align: right;
+}
