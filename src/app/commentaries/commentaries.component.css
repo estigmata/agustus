@@ -1,0 +1,58 @@
+.view-user-place .go-back {
+  color: #002f6c;
+  display: block;
+  margin: 10px 0;
+}
+
+.people-avatar {
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+
+.people-avatar img {
+  border: 1px solid #eee;
+  border-radius: 50%;
+  height: 48px;
+  padding: 2px;
+  width: 48px;
+}
+
+.view-user-place h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.view-user-place .row .col-6 {
+  margin-bottom: 10px;
+}
+
+.place-avatar {
+  background-color: #e1e2e1;
+  border-radius: 50%;
+  color: #eee;
+  display: block;
+  font-weight: 600;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  width: 32px;
+}
+
+.view-user-place h6 {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.view-user-place .sub {
+  color: #3f3f3f;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.other-places {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}

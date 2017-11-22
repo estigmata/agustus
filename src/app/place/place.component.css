@@ -4,6 +4,11 @@
   margin: 10px 0;
 }
 
+.place h4 {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
 .people-avatar {
   display: block;
   height: 48px;

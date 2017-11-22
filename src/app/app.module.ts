@@ -5,8 +5,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { SignInComponent } from './signin/signin.component';
-import { ListComponent } from './list/list.component';
+import { ListPlaceComponent } from './list-place/list-place.component';
 import { PlaceComponent } from './place/place.component';
+import { CommentariesComponent } from './commentaries/commentaries.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
@@ -14,8 +15,9 @@ import { AppRoutingModule }     from './app-routing.module';
   declarations: [
     AppComponent,
     SignInComponent,
-    ListComponent,
-    PlaceComponent
+    ListPlaceComponent,
+    PlaceComponent,
+    CommentariesComponent
   ],
   imports: [
     BrowserModule,
