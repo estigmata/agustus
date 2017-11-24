@@ -3,9 +3,29 @@
     <i class="fa fa-arrow-circle-left fa-lg"></i> Back to the list
   </span>
   <h2>Factory Grill</h2>
-  <div class="images">
-    <img class="img-responsive img-thumbnail" src="./assets/images/factory.jpg" />
-  </div>
+  <ngb-carousel>
+    <ng-template ngbSlide>
+      <img class="img-responsive" src="./assets/images/factory/b-01.jpg" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>Factory Grill...</h3>
+        <p>Donec at nibh ac elit suscipit egestas.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img class="img-responsive" src="./assets/images/factory/b-02.jpg"  alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Factory Grill...</h3>
+        <p>Curabitur sollicitudin nisl ac sem commodo aliquam.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img class="img-responsive" src="./assets/images/factory/b-03.jpg" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Factory Grill...</h3>
+        <p>Phasellus elementum odio non quam luctus, sit amet hendrerit sapien iaculis.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
   <h4>People who recomended this place</h4>
   <div class="people">
     <div class="row" *ngFor="let people of allPeople" (click)="go('/commentaries')">

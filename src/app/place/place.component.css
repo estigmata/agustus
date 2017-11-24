@@ -49,3 +49,9 @@
   color: #fff;
   font-size: 12px;
 }
+
+.carousel h3,
+.carousel p {
+  color: #eee;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, .75);
+}
